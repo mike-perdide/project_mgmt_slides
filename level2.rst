@@ -110,15 +110,16 @@ Unlocked 1 : Gestionnaire de version du code
 
     $ git commit              # création du commit
 
+
 .. slide::
    :level: 2
 
    .. figure:: _static/commit.png
       :class: fill
 
-.. note::
-   - on peut mettre "correction pour le bug 12" ou "ajout de fonctionnalité X"
-   - permet aussi de voir ce qui a été modifié depuis la dernière fois
+   .. note::
+      - on peut mettre "correction pour le bug 12" ou "ajout de fonctionnalité X"
+      - permet aussi de voir ce qui a été modifié depuis la dernière fois
 
 .. slide::
    :level: 2

@@ -31,6 +31,7 @@ Etapes du projet
 ================
 
 .. rst-class:: build
+
 - Développement par lots d'une durée de 3 à 6 mois (MAJ)
 - Contenu des lots : négociation direction technique / direction commerciale
 - Chiffrage des tâches : négociation direction technique / l'équipe R&D
@@ -60,10 +61,17 @@ Fin du niveau
 
 .. rst-class:: build
 
+- Pot d'arrivée : **30 pt.XP**
+- Proposition de nouvelles méthodes : **25 pt.XP**
+- Le chef de projet se sent remis en question : **- 10 pt.XP**
+- Vous quittez l'entreprise 6 mois avant la faillite et créez votre entreprise : **300 pt.XP**
+- Total : **345 pt.XP**
 - Nouvelles compétences débloquées : 3
 
 Unlocked 1 : Réunion quotidienne debout
 =======================================
+
+.. rst-class:: build
 
 - La réunion quotidienne : permet d'accentuer le sentiment d'équipe
 - Debout : limiter le temps pris, fluidifier (chacun parle 2 minutes MAX)
@@ -71,13 +79,38 @@ Unlocked 1 : Réunion quotidienne debout
 Unlocked 2 : Kanban
 ===================
 
-- Au lieu d'aller piocher dans un bug tracker avec 6K+ bugs, la DT choisit un ensemble de tâches à résoudre sur une période courte.
+.. rst-class:: build
+
+- Au lieu du bug tracker avec 6K+ bugs, la DT choisit un ensemble de tâches
+- Focaliser sur une période courte
 - Effet visuel : on progresse
 - Affichage au mur vs affichage virtuel
+
+.. note::
+
+   * plutôt que de se mettre face à une montagne de bug, on présente des objectifs réalisables
+   * effet sur le moral
+   * chiffrer la célérité de l'équipe : en combien de temps les post-its progressent
+   * facteur ludique
+
+.. slide:: Exemple
+   :level: 2
+
+   .. figure:: _static/kanban_board.png
+      :class: fill
 
 Unlocked 3 : Test-driven developpement
 ======================================
 
-- On écrit les tests au début du projet, du développement
+.. rst-class:: build
+
+- On écrit des tests de haut niveau au début du projet, ou de la période
+- Tests correspondant aux scénarios d'utilisation
 - Le projet est fini quand les tests passent
 - Rendre le développement ludique : les voyants passent au vert quand on a fini
+
+.. note::
+
+   * dynamiser le développement, rendre le projet ludique
+   * se focaliser sur les fonctionnalités demandées
+   * quand ça marche, on arrête de développer
